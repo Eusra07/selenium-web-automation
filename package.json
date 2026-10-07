@@ -1,0 +1,16 @@
+{
+  "name": "batch18",
+  "version": "1.0.0",
+  "description": "project testing for automation practice",
+  "type": "module",
+  "main": "base.js",
+  "scripts": {
+    "test": "node test/LoginTest.js && node test/SignUpTest.js"
+
+  },
+  "author": "Eusra",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.48.0"
+  }
+}
